@@ -1,7 +1,7 @@
 # List files in directory as links in webpage.
 
 import os 
-mydir='/home/fluffy/Pictures'
+mydir='/home/SomeFolder/Pictures'
 outputfile = open("filelist.html", "w+")
 print("<html><body><h1>Files.</h1><ul>", file=outputfile)
 for x in os.listdir(mydir):
